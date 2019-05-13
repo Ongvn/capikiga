@@ -1,0 +1,39 @@
+Hàng Hóa
+	id
+	tên
+	giá gốc
+	giá bán
+	loại: hàng đơn / combo
+	hình
+	chi tiết
+	color back
+	color font
+
+Khách Hàng
+	id
+	mssv
+	tên
+	mật khẩu
+
+Hoá đơn mua
+	id
+	id khách
+	id hàng
+	thời gian lập
+
+Hóa đơn nhập
+	id
+	nơi cung cấp
+	ngày lập
+
+CT Hóa đơn nhập
+	id
+	id hóa đơn nhập
+	id hàng
+	số lượng
+	giá
+
+CT Combo
+	id combo
+	id hàng hóa (loại: hàng đơn)
+	
